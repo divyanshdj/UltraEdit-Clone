@@ -1,0 +1,132 @@
+.logo img{
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right ul li span{
+    padding: 0 5px;
+}
+
+.para{
+    margin: 60px 200px;
+    height: 35vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.para1{
+    font-size: 3em;
+    text-align: center;
+}
+
+.para2{
+    text-align: center;
+    font-size: 2em;
+}
+
+.button{
+    border: 1px solid rgb(32, 173, 224);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.para button{
+    background-color: rgb(32, 173, 224);
+    color: white;
+    font-size: 0.8rem;
+    padding: 14px;
+    font-weight: bold;
+    margin-left: 310px;
+}
+.box-button{
+    border: 1px solid rgb(32, 173, 224);
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(32, 173, 224);
+    color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.box--button{
+    border: 1px solid rgb(14, 157, 26);
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(14, 157, 26);
+    color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.headbox{
+    display: flex;
+    height: 10vh;
+    font-size: 1.5em;
+    background-color: rgb(255, 255, 255);
+    justify-content: start;
+}
+
+.headbox img{
+    position: relative;
+    left:195px;
+    padding-left: 10px;
+}
+.headbox p{
+    position: relative;
+    left:195px;
+    padding-left: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 170px;
+    height: 130vh;
+    margin: 10px;
+    padding: 25px;
+}
+
+.container h3{
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.box1 > h3{
+    margin: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.box1{
+    background-color: rgb(234, 234, 234);
+    border-radius: 4px;
+    text-align: center;
+    padding: 12px;
+    width: fit-content;
+}
+.box2{
+    background-color: rgb(234, 234, 234);
+    border-radius: 4px;
+    text-align: center;
+    padding: 12px;
+    width: fit-content;
+}
